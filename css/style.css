@@ -1,0 +1,1429 @@
+/*Applies to all***************************************************************/
+
+body {
+    background-color: #273652!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden
+}
+
+@font-face {
+    font-family: "Pokemon X and Y";
+    src: url(../fonts/pokemonfont.ttf);
+    format: (opentype);
+}
+
+@font-face {
+    font-family: "Pokemon X and Y";
+    src: url(../fonts/pokemonfont-webfont.eot);
+    format: (opentype);
+}
+
+.hr {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: #273652;
+    width: 40vw;
+    margin: 3vw 5vw 3vw 5vw;
+    height: 1px;
+}
+
+.hr1 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-color: rgba(0,0,0,0);
+    width: 50vw;
+    margin: 3vw 10vw 3vw 10vw;
+    height: 1px;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 27px;
+}
+
+
+/*Applies to all***************************************************************/
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+
+/*Desktop topnav***************************************************************/
+
+ul.topnav {
+    z-index: 20;
+    position: fixed;
+    width: 100vw;
+    height: 117px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #273652;
+    transition: height 2s ease;
+}
+
+
+/* Float the list items side by side */
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav #log {
+    padding: 58px 20px;
+    transition: 0.3s;
+}
+
+
+/* Style the links inside the list items */
+
+ul.topnav .icons {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 31px 23px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+    font-family: 'Kelly Slab', cursive;
+    font-weight: regular;
+}
+
+ul.topnav .sym {
+    height: 55px;
+    margin-right: 10px;
+    width: auto;
+}
+
+
+/*Desktop topnav***************************************************************/
+
+
+/*Owl Desktop edits******************************************************/
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    animateOut: 'fadeOut'
+}
+
+#owl-demo {
+    top: 117px;
+}
+
+.owl-controls {
+    margin-bottom: 20px;
+}
+
+.owl-controls {
+    margin-bottom: 20px;
+}
+
+
+/*Bootstrap Desktop edits******************************************************/
+
+
+/*Meat components Desktop******************************************************/
+
+.banner {
+    position: relative;
+    top: 117px;
+    background: white;
+    background: linear-gradient(to bottom, #fff, #bfbfbf);
+    display: block;
+    width: 70vw;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.banner>p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.head1 {
+    font-family: 'Kelly Slab', cursive;
+    letter-spacing: 0px;
+    color: #881bb1;
+    font-size: 50px;
+    display: inline;
+}
+
+.head2 {
+    font-family: 'Kelly Slab', cursive;
+    letter-spacing: 0px;
+    color: #077E4A;
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.head3 {
+    position: absolute;
+    font-family: 'Kelly Slab', cursive;
+    letter-spacing: 0px;
+    color: #881bb1;
+    font-size: 50px;
+    white-space: nowrap;
+}
+
+.head4 {
+    font-family: 'Kelly Slab', cursive;
+    color: #000;
+    font-size: 30px;
+    display: inline;
+    white-space: nowrap;
+}
+
+.button {
+    background-color: #077E4A;
+    width: 10vw;
+    height: 5vw;
+    border-radius: 25px;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button:hover {
+    background-color: #033B22;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button2:hover {
+    background-color: #033B22;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button3:hover {
+    background-color: #033B22;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button4:hover {
+    background-color: #033B22;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button>p {
+    font-family: 'Kelly Slab', cursive;
+    color: white;
+    font-weight: regular;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#map {
+    width: 20vw;
+    height: 18vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.m1{
+  width: 20vw;
+  height: 350px;
+}
+
+.cart {
+    position: fixed;
+    top: 167px;
+    left: 93%;
+    width: 10vw;
+}
+
+
+/*Meat components Desktop******************************************************/
+
+.greybar {
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    height: 50px;
+    position: relative;
+    top: 117px;
+}
+
+
+/*Bottom bar Desktop***********************************************************/
+
+.bottom {
+    display: block;
+    background-color: #273652;
+    text-align: center;
+    height: 300px;
+    position: relative;
+    top: 117px;
+}
+
+.bottom ul li {
+    display: inline;
+    text-align: center;
+}
+
+.bottom ul li a {
+    position: relative;
+    top: 115px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Kelly Slab', cursive;
+    color: #fff;
+    font-size: 16.5px;
+}
+
+#sm {
+    position: relative;
+}
+
+#sm li {
+    display: inline;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 20px;
+}
+
+#sm li a {
+    text-align: center;
+}
+
+#sm1{
+  bottom: 6vw;
+}
+
+#sm1 li {
+    display: inline;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#sm1 li a {
+    text-align: center;
+}
+
+
+/*Bottom bar Desktop***********************************************************/
+
+
+/* Remove margins and padding from the list, and add a black background color */
+
+
+/* Change background color of links on hover */
+
+ul.topnav li a:hover {
+    background-color: #183d81;
+}
+
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+
+ul.topnav li.icon {
+    display: none;
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+
+
+/*Events And Registration********************************************************/
+
+.calendar {
+    width: 50vw;
+    height: 49vh;
+    position: relative;
+    top: 20px;
+    background-color: #2153B3;
+    margin-bottom: 0px;
+}
+
+.calendar td {
+    border: 5px solid #2F76FF;
+    width: 10vw;
+    height: 7vh;
+    -webkit-transition: background-color 1s, width 1s;
+    transition: background-color 1s, width 1s;
+    -moz-transition: background-color 1s, width 1s;
+    -o-transition: background-color 1s, width 1s;
+    -ms-transition: background-color 1s, width 1s;
+}
+
+.calendar td>a>p, .calendar td>p {
+    color: white;
+    font-size: 38px;
+    font-family: 'Pokemon X and Y';
+    position: relative;
+    left: 12px;
+    display: inline;
+    overflow: hidden;
+}
+
+.calendar td:hover {
+    width: 20vw;
+    background-color: #881bb1;
+    -webkit-transition: background-color 1s ease, width 1s ease;
+    transition: background-color 1s ease, width 1s ease;
+    -moz-transition: background-color 1s ease, width 1s ease;
+    -o-transition: background-color 1s ease, width 1s ease;
+    -ms-transition: background-color 1s ease, width 1s ease;
+}
+
+.calendar td:hover #hiddentext {
+    font-size: 18px;
+    color: white;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.calendar td>a>img, .calendar td>img {
+    position: relative;
+    left: 12px;
+    height: 20px;
+    width: auto;
+}
+
+.calendar a {
+    display: block;
+    text-decoration: none;
+}
+
+.calendar #hiddentext {
+    font-size: 0px;
+    color: #2153B3;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.parallax {
+    background-image: url('../assets/1.jpg');
+    /* Set a specific height */
+    height: 200px;
+    width: 70vw;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 117px;
+    left: 14.6vw;
+    -webkit-filter: blur(5px) brightness(50%);
+    -moz-filter: blur(5px) brightness(50%);
+    -o-filter: blur(5px) brightness(50%);
+    -ms-filter: blur(5px) brightness(50%);
+    filter: blur(5px) brightness(50%);
+}
+
+.seventy {
+    z-index: 1;
+    width: 70%;
+}
+
+.cleartext {
+    position: relative;
+    top: 175px;
+    z-index: 2;
+    text-align: center;
+}
+
+.cleartext2 {
+    position: relative;
+    text-align: center;
+    display: inline;
+    left: 25%;
+    transform: translate(0, -50%);
+}
+
+.cleartext3 {
+    position: relative;
+    top: 147px;
+    z-index: 2;
+    text-align: center;
+    display: inline;
+}
+
+.tall {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: flex;
+    background: white;
+    width: 70vw;
+    background: linear-gradient(to bottom, #fff, #d9d9d9);
+    /* Standard syntax (must be last) */
+    text-align: center;
+    position: relative;
+    top: 117px;
+    height: 300px;
+    padding: 0 10vw 0 10vw
+}
+
+.white {
+    color: white;
+}
+
+.half {
+    width: 35vw;
+    display: inline-block;
+    margin: 0;
+    padding: 0 5vw 0 5vw;
+}
+
+.text {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 70vw;
+    padding: 5px;
+}
+
+.texth {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 35vw;
+    padding: 25px;
+}
+
+.text5 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 25vw;
+    padding: 5px;
+    float: left;
+}
+
+#nr{
+  top: 2vw;
+  left: 4vw;
+}
+
+#nl{
+  top: 2vw;
+  right: 4vw;
+}
+
+.imgtab {
+    width: 57vw;
+    height: auto;
+}
+
+#merch {
+    top: 117px;
+    height: 52.5vw;
+    width: 70vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #273652;
+    margin-bottom: 40px;
+}
+
+#merch td {
+    background-size: cover;
+    width: 17.5vw;
+    height: 17.5vw;
+    border: 5px solid #273652;
+    text-align: center;
+}
+
+td:hover #hiddentext {
+    font-size: 30px;
+    color: white;
+    text-shadow: 1.5px 1.5px black;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#hiddentext {
+    font-size: 0px;
+    color: #2153B3;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button2 {
+    background-color: #077E4A;
+    width: 0vw;
+    height: 0vw;
+    border-radius: 25px;
+    position: relative;
+    visibility: hidden;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.togglecal {
+    padding-left: 0px;
+}
+
+.togglecal>li {
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+#sm>li>a>img {
+    height: 50px;
+    width: auto;
+}
+
+.button2>p {
+    font-family: 'Kelly Slab', cursive;
+    color: white;
+    font-weight: regular;
+    font-size: 0px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+td:hover a .button2 {
+    width: 9vw;
+    height: 3vw;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    visibility: visible;
+}
+
+td:hover a .button2>p {
+    font-size: 30px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+.button3 {
+    background-color: #077E4A;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 25px;
+    position: relative;
+    left: 52.5%;
+    margin-bottom: 15px;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+#hl {
+    color: #881bb1;
+}
+
+.button3>p {
+    font-family: 'Kelly Slab', cursive;
+    color: white;
+    font-weight: regular;
+    font-size: 30px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.button3>img {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 25px;
+    float: left;
+}
+
+.centerv {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+.centerh {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.centervr {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+.centerhr {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.centerfhr {
+    position: relative;
+    left: 32.5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.centertfhr {
+    position: relative;
+    left: 67.5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.buttoncal {
+    background-color: #077E4A;
+    width: 15vw;
+    height: 5vw;
+    border-radius: 25px;
+    position: relative;
+}
+
+.buttoncal>p {
+    font-family: 'Kelly Slab' cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 47px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#modalimg {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    background-repeat: norepeat;
+    background-size: cover;
+    background-image: url("../assets/shirt1.fw.png");
+}
+
+.review {
+    height: 20vw;
+    width: 50vw;
+}
+
+.creditimg>li {
+    list-style-type: none;
+    margin: 60px 0 60px 0;
+}
+
+.creditimg>li>img {
+    height: 80px;
+    width: auto;
+}
+
+.adj {
+    height: 1350px;
+}
+
+.rvwpics {
+    height: 150px;
+    width: auto;
+    margin-top: 80px;
+}
+
+.rvwbox {
+    position: relative;
+    top: 77px;
+}
+
+
+/*Modal************************************************************************/
+
+
+/*Modal************************************************************************/
+
+
+/*Links************************************************************************/
+
+#o1 {
+    content: url("../assets/1.png");
+    height: 600px;
+    width: 1920px;
+}
+
+#o2 {
+    content: url("../assets/2.png");
+    height: 600px;
+    width: 1920px;
+}
+
+#o3 {
+    content: url("../assets/3.png");
+    height: 600px;
+    width: 1920px;
+}
+
+#o4 {
+    content: url("../assets/4.png");
+    height: 600px;
+    width: 1920px;
+}
+
+#s1 {
+    background-image: url("../assets/shirt1.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s2 {
+    background-image: url("../assets/shirt2.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s3 {
+    background-image: url("../assets/shirt3.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s4 {
+    background-image: url("../assets/hat.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s5 {
+    background-image: url("../assets/hat2.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s6 {
+    background-image: url("../assets/hat3.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s7 {
+    background-image: url("../assets/wristband.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s8 {
+    background-image: url("../assets/wristband2.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s9 {
+    background-image: url("../assets/wristband3.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s10 {
+    background-image: url("../assets/socks.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s11 {
+    background-image: url("../assets/socks2.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s12 {
+    background-image: url("../assets/socks3.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s1:hover {
+    background-image: url("../assets/shirt1b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all.h 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s2:hover {
+    background-image: url("../assets/shirt2b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s3:hover {
+    background-image: url("../assets/shirt3b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s4:hover {
+    background-image: url("../assets/hatb.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s5:hover {
+    background-image: url("../assets/hat2b.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s6:hover {
+    background-image: url("../assets/hat3b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s7:hover {
+    background-image: url("../assets/wristbandb.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s8:hover {
+    background-image: url("../assets/wristband2b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s9:hover {
+    background-image: url("../assets/wristband3b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s10:hover {
+    background-image: url("../assets/socksb.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s11:hover {
+    background-image: url("../assets/socks2b.fw.png");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#s12:hover {
+    background-image: url("../assets/socks3b.jpg");
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+}
+
+#pwhat {
+    background-image: url('../assets/galaxy.jpg');
+}
+
+#pwho {
+    background-image: url('../assets/placehold.jpg');
+}
+
+#plocation {
+    background-image: url('../assets/macon.jpg');
+}
+
+#pcontact {
+    background-image: url('../assets/contact.jpg');
+}
+
+#pjobs {
+    background-image: url('../assets/jobs.jpg');
+}
+
+#pconcert {
+    background-image: url('../assets/concert.jpg');
+}
+
+#pfw {
+    background-image: url('../assets/2.jpg');
+}
+
+#panniversary {
+    background-image: url('../assets/anniversary.jpg');
+}
+
+#pfathersday {
+    background-image: url('../assets/fathersday.jpg');
+}
+
+#pstarwars {
+    background-image: url('../assets/starwars.jpg');
+}
+
+#pwhere {
+    background-image: url('../assets/wheretofindus.jpg');
+}
+
+#pfuture {
+    background-image: url('../assets/future.jpg');
+}
+
+#ppast {
+    background-image: url('../assets/past.jpg');
+}
+
+#preview {
+    background-image: url('../assets/reviewus.jpg');
+}
+
+#psoc {
+    background-image: url('../assets/socialmedia.jpg');
+}
+
+#pcall {
+    background-image: url('../assets/giveusacall.jpg');
+}
+#psumn{
+  background-image: url('../assets/sumn.png');
+}
+
+
+/*Links************************************************************************/
+
+@media screen and (max-width: 1081px) {
+    /*Links************************************************************************/
+    #o1 {
+        content: url("../assets/1m.png");
+        height: 600px;
+        width: 1440px;
+    }
+    #o2 {
+        content: url("../assets/2m.png");
+        height: 600px;
+        width: 1440px;
+    }
+    #o3 {
+        content: url("../assets/3m.png");
+        height: 600px;
+        width: 1440px;
+    }
+    #o4 {
+        content: url("../assets/4m.png");
+        ;
+        height: 600px;
+        width: 1440px;
+    }
+    /*Links************************************************************************/
+    /*Bootstrap Mobile edits*******************************************************/
+    #owl-demo .item img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    #owl-demo {
+        top: 222px;
+    }
+    .owl-controls {
+        margin-bottom: 20px;
+    }
+    /*Bootstrap Mobile edits*******************************************************/
+    /* Tabs closed mobile *********************************************************/
+    ul.topnav .syml {
+        height: 220px;
+        padding: 20px 0px;
+        width: auto;
+        margin-left: 63px;
+    }
+    ul.topnav {
+        z-index: 20;
+        position: fixed;
+        width: 100vw;
+        transition: all 400ms ease;
+        -moz-transition: all 400ms ease;
+        -webkit-transition: all 400ms ease;
+        -o-transition: all 400ms ease;
+        -ms-transition: all 400ms ease;
+    }
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+    ul.topnav li.icon {
+        float: right;
+        font-size: 100px;
+        margin: 40px 40px;
+        display: inline-block;
+    }
+    /* Tabs closed mobile *******************************************************/
+    /* Tabs open mobile *********************************************************/
+    ul.topnav.responsive #log {
+        padding: 0px 0px
+    }
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+        font-size: 45px;
+    }
+    ul.topnav.responsive .sym {
+        float: right;
+        height: 90px;
+        width: auto;
+        margin-top: -15px;
+        margin-left: 50px;
+    }
+    ul.topnav.responsive #stack {
+        font-size: 100px;
+    }
+    /* Tabs open mobile *********************************************************/
+    /* Meat Components Mobile ***************************************************/
+    #contact1 {
+        height: 800px;
+    }
+    .calendar{
+      width: 70vw;
+      height: 38vw;
+    }
+    .calendar td{
+      width: 10vw;
+      height: 5vw;
+    }
+    .banner {
+        top: 223px;
+        width: 100vw;
+        padding: 5vw 5vw 5vw 5vw;
+    }
+    .banner>p {
+        font-size: 30px;
+    }
+    .banner>a {
+        font-size: 50px;
+    }
+    .tall {
+        top: 223px;
+        width: 100vw;
+        padding: 0 5vw 0 5vw;
+        height: 400px
+    }
+    .seventy{
+      width: 100vw;
+    }
+    .text {
+        width: 100vw;
+    }
+    .banner>.text {
+        padding: 0 5vw 0 5vw;
+    }
+    .parallax {
+        top: 223px;
+        width: 100vw;
+        left: 0vw;
+    }
+    .seventy {
+        width: 100vw;
+    }
+    .cleartext {
+        top: 290px;
+    }
+    .texth {
+        width: 45vw;
+        padding: 15px;
+    }
+    .text5 {
+      width: 45vw;
+    }
+    .centerfhr {
+        left: 25%;
+    }
+
+    .centertfhr {
+        left: 75%;
+    }
+    #map{
+      width: 40vw;
+      height: 45vw;
+    }
+    .hr{
+      width: 50vw;
+      margin: 5vw 20vw 5vw 20vw;
+    }
+    .hr1{
+      width: 50vw;
+      margin: 5vw 20vw 5vw 20vw;
+    }
+    .button {
+        width: 30vw;
+        height: 10vw;
+        border-radius: 25px;
+    }
+    .button>p {
+        font-size: 47px;
+    }
+    .greybar {
+        height: 50px;
+        top: 223px;
+    }
+    iframe {
+        width: 45vw;
+        height: 350px
+    }
+    #merch {
+        width: 100vw;
+        height: 75vw;
+        top: 223px;
+    }
+    #merch td {
+        width: 25vw;
+        height: 25vw;
+    }
+    td:hover a .button2>p {
+        font-size: 25px;
+    }
+    td:hover a .button2 {
+        width: 15vw;
+        height: 5vw;
+    }
+    .button3 {
+        width: 25vw;
+        height: 9vw;
+    }
+    .button3>p {
+        font-size: 30px;
+    }
+    .cleartext3 {
+        position: relative;
+        top: 247px;
+        z-index: 2;
+        text-align: center;
+        display: inline;
+    }
+    /* Meat Components Mobile ***************************************************/
+    /* Mobile Bottom ************************************************************/
+    .bottom {
+        top: 223px;
+        height: 300px;
+    }
+    .bottom ul li a {
+        font-size: 30px;
+        padding: 15px;
+        top: 90px;
+    }
+    #sm {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #sm li a img {
+        width: 65px;
+        height: 65px;
+    }
+    /* Mobile Bottom ************************************************************/
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+/* The Close Button */
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.simpleCart_items table {
+    width: 100%;
+}

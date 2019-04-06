@@ -1,0 +1,298 @@
+<html>
+
+<head>
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Time Tower</title>
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Kelly+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap script -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+    <ul class="topnav" id="myTopnav">
+        <li>
+            <a id="log" href="index.html"><img class="syml" src="assets/logo_a.gif" height="110px"></img>
+            </a>
+        </li>
+        <li>
+            <a class="icons" href="about.html"><img class="sym" src="assets/icon_a.png"></img>About Us</a>
+        </li>
+        <li>
+            <a class="icons" href="contact.html"><img class="sym" src="assets/icon_c.png"></img>Contact Us</a>
+        </li>
+        <li>
+            <a class="icons" href="EnR.html"><img class="sym" src="assets/icon_e.png"></img>Events</a>
+        </li>
+        <li>
+            <a class="icons" href="merch.html"><img class="sym" src="assets/icon_p.png"></img>Packages and Reservations</a>
+        </li>
+        <li>
+            <a class="icons" href="merch.html"><img class="sym" src="assets/icon_m.png"></img>Merchandise</a>
+        </li>
+        <li class="icon">
+            <a id="stack" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </li>
+    </ul>
+
+    <div id="owl-demo" class="owl-carousel owl-theme owl-autoplay">
+        <div class="item">
+            <a href="about.html"><img src="assets/1.png"></img>
+            </a>
+        </div>
+        <div class="item">
+            <a href="enr.html"><img src="assets/2.fw.png"></img>
+            </a>
+        </div>
+        <div class="item">
+            <a href="enr.html"><img src="assets/3.fw.png"></img>
+            </a>
+        </div>
+        <div class="item">
+            <a href="merch.html"><img src="assets/4.fw.png"></img>
+            </a>
+        </div>
+    </div>
+    <!--Welcome Banner-->
+    <div class="banner">
+        <a class="head1">
+    So much fun you'll wish you had more time
+  </a>
+        <div class="text centerh">
+            <p class="centerh">
+                Our focus here at the Time Tower is fun for all ages! Our entertainment facility is divided into two distinct sections- The Past and The Future. From bouncy starships to 80s arcade games there is something here for everyone at the Time Tower!
+
+
+            </p>
+        </div>
+    </div>
+
+    <div class="cleartext centerhr">
+        <p class="head3 white centerhr" id="space2">
+            Where to Find Us
+        </p>
+    </div>
+    <div class="parallax" id="plocation"></div>
+    <!--Where To Find Us-->
+    <div class="tall">
+        <div class="texth">
+            <p class="centerv">
+                Time Tower is located our Facility is located in Macon, Georgia, on 3374 Mercer University Drive. Look for us across the street from Flash-Foods gas station.
+            </p>
+        </div>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                // Styles a map in night mode.
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: {
+                        lat: 40.674,
+                        lng: -73.945
+                    },
+                    zoom: 12,
+                    styles: [{
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#242f3e'
+                        }]
+                    }, {
+                        elementType: 'labels.text.stroke',
+                        stylers: [{
+                            color: '#242f3e'
+                        }]
+                    }, {
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#746855'
+                        }]
+                    }, {
+                        featureType: 'administrative.locality',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    }, {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    }, {
+                        featureType: 'poi.park',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#263c3f'
+                        }]
+                    }, {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#6b9a76'
+                        }]
+                    }, {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#38414e'
+                        }]
+                    }, {
+                        featureType: 'road',
+                        elementType: 'geometry.stroke',
+                        stylers: [{
+                            color: '#212a37'
+                        }]
+                    }, {
+                        featureType: 'road',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#9ca5b3'
+                        }]
+                    }, {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#746855'
+                        }]
+                    }, {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{
+                            color: '#1f2835'
+                        }]
+                    }, {
+                        featureType: 'road.highway',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#f3d19c'
+                        }]
+                    }, {
+                        featureType: 'transit',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#2f3948'
+                        }]
+                    }, {
+                        featureType: 'transit.station',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#d59563'
+                        }]
+                    }, {
+                        featureType: 'water',
+                        elementType: 'geometry',
+                        stylers: [{
+                            color: '#17263c'
+                        }]
+                    }, {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{
+                            color: '#515c6d'
+                        }]
+                    }, {
+                        featureType: 'water',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{
+                            color: '#17263c'
+                        }]
+                    }]
+                });
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjpol5noL_E-hiqEQjeHoTtjRndGJn-sY&callback=initMap" async defer></script>
+    </div>
+
+
+
+    <div class="cleartext centerhr">
+        <p class="head3 white centerhr" id="space2">
+            Career Opportunities
+        </p>
+    </div>
+    <div class="parallax" id="pjobs"></div>
+    <!--Career Oppurtunities-->
+    <div class="tall">
+        <div class="texth">
+            <p class="centerv">
+                Whether you are just looking for a part time job or a fulltime career there are many oppurtunities for both at the Time Tower. If you are interested click the button to the right to download an application !
+            </p>
+        </div>
+        <div class="texth">
+            <a href="assets/application.pdf" download>
+                <div class="button">
+                    <p> Apply Now</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a>Career Oppurtunities</a></li>
+            <li><a href="contact.html">Locations</a></li>
+            <li><a href="credits.html">&#169 Copyright</a></li>
+            <li><a href="credits.html">FBLA Judges</a></li>
+        </ul>
+        <ul id="sm">
+            <li>
+                <a href="https://www.twitter.com/perrytimetower"><img src="assets/twitter.png" width="41px" height="41px"></img>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/perrytimetower"><img src="assets/instagram.png" width="41px" height="41px"></img>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/time-tower-17581020178468363"><img src="assets/facebook.png" width="41px" height="41px"></img>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+                navigation: false, // Show next and prev buttons
+                slideSpeed: 250,
+                paginationSpeed: 400,
+                singleItem: true,
+                autoPlay: true,
+                stopOnHover: true,
+                pagination: false,
+
+                // "singleItem:true" is a shortcut for:
+                // items : 1,
+                // itemsDesktop : false,
+                // itemsDesktopSmall : false,
+                // itemsTablet: false,
+                // itemsMobile : false
+
+            });
+            $(document).ready(function() {
+                $('.scrollspy').scrollSpy();
+            });
+        });
+    </script>
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="owl-carousel/owl.carousel.js"></script>
+</body>
+
+
+
+</html>
