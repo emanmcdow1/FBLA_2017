@@ -79,6 +79,7 @@ ul.topnav {
     margin: 0;
     overflow: hidden;
     background-color: #273652;
+    -webkit-transition: height 2s ease;
     transition: height 2s ease;
 }
 
@@ -91,6 +92,7 @@ ul.topnav li {
 
 ul.topnav #log {
     padding: 58px 20px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -103,6 +105,7 @@ ul.topnav .icons {
     text-align: center;
     padding: 31px 23px;
     text-decoration: none;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     font-size: 20px;
     font-family: 'Kelly Slab', cursive;
@@ -150,6 +153,7 @@ ul.topnav .sym {
     position: relative;
     top: 117px;
     background: white;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#bfbfbf));
     background: linear-gradient(to bottom, #fff, #bfbfbf);
     display: block;
     width: 70vw;
@@ -210,7 +214,8 @@ ul.topnav .sym {
     float: left;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -262,7 +267,8 @@ ul.topnav .sym {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     overflow: hidden;
     white-space: nowrap;
 }
@@ -492,7 +498,8 @@ ul.topnav li.icon {
     text-align: center;
     display: inline;
     left: 25%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
 }
 
 .cleartext3 {
@@ -505,13 +512,15 @@ ul.topnav li.icon {
 
 .tall {
     display: -ms-flex;
-    display: -webkit-flex;
     display: -moz-flex;
     display: -o-flex;
     display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: white;
     width: 70vw;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#d9d9d9));
     background: linear-gradient(to bottom, #fff, #d9d9d9);
     /* Standard syntax (must be last) */
     text-align: center;
@@ -578,7 +587,8 @@ ul.topnav li.icon {
     width: 70vw;
     position: relative;
     left: 50%;
-    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
     background-color: #273652;
     margin-bottom: 40px;
 }
@@ -621,7 +631,8 @@ td:hover #hiddentext {
     visibility: hidden;
     left: 50%;
     top: 30px;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -651,7 +662,8 @@ td:hover #hiddentext {
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     overflow: hidden;
     white-space: nowrap;
 }
@@ -685,7 +697,8 @@ td:hover a .button2>p {
     left: 52.5%;
     margin-bottom: 15px;
     top: 50px;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 #hl {
@@ -699,7 +712,8 @@ td:hover a .button2>p {
     font-size: 30px;
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     overflow: hidden;
     white-space: nowrap;
 }
@@ -707,7 +721,8 @@ td:hover a .button2>p {
 .button3>img {
     position: relative;
     top: 50%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     left: 25px;
     float: left;
 }
@@ -780,7 +795,8 @@ td:hover a .button2>p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     overflow: hidden;
     white-space: nowrap;
 }
@@ -1082,7 +1098,7 @@ td:hover a .button2>p {
 }
 
 #plocation {
-    background-image: url('../assets/macon.jpg');
+    background-image: url('../assets/macon.JPG');
 }
 
 #pcontact {
